@@ -13,7 +13,7 @@ form {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 1em;
+  padding: 2em 1em;
   gap: 0.5em;
   margin: 0;
 }
@@ -65,7 +65,7 @@ main {
 #color-div-4,
 #color-div-5,
 #color-div-6 {
-  height: 85vh;
+  height: 80vh;
 }
 
 #color-hex-1,
@@ -77,7 +77,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 6.3vh;
+  height: 7.66vh;
   font-weight: 500;
   font-size: 0.75rem;
   line-height: 1.5rem;
