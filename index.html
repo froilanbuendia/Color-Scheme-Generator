@@ -1,9 +1,50 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <h1>index.html</h1>
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <form id="form">
+        <input type="color" id="color-input" />
+        <select id="select-mode">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome-Dark</option>
+          <option value="monochrome-light">Monochrome-Light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-Complement</option>
+          <option value="triad">Triad</option>
+          <option value="quad">Quad</option>
+        </select>
+        <button>Get color scheme</button>
+      </form>
+    </header>
+    <main id="main">
+      <section class="color-sec">
+        <div id="color-div-1"></div>
+        <div id="color-hex-1"></div>
+      </section>
+      <section class="color-sec-2">
+        <div id="color-div-2"></div>
+        <div id="color-hex-2"></div>
+      </section>
+      <section class="color-sec-3">
+        <div id="color-div-3"></div>
+        <div id="color-hex-3"></div>
+      </section>
+      <section class="color-sec-4">
+        <div id="color-div-4"></div>
+        <div id="color-hex-4"></div>
+      </section>
+      <section class="color-sec-5">
+        <div id="color-div-5"></div>
+        <div id="color-hex-5"></div>
+      </section>
+      <section class="color-sec-6">
+        <div id="color-div-6"></div>
+        <div id="color-hex-6"></div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
